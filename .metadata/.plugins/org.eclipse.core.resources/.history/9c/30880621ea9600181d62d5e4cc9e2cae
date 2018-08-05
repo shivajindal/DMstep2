@@ -1,0 +1,32 @@
+package com.stackroute.pe2;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.stackroute.datamunger.DataMunger;
+import com.stackroute.demo1.Prog9;
+
+public class EvenTest {
+	private static Even even;
+	
+	@BeforeClass
+	public static void setup() {
+		
+		even = new Even();
+	}
+	
+	@AfterClass
+	public static void teardown() {
+		even = null;
+
+	}
+
+	@Test
+	public void test() {
+		Even p = new Even();
+		
+	}
+}

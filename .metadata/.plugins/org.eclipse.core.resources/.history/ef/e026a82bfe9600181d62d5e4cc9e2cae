@@ -1,0 +1,11 @@
+package com.stackroute.pe2;
+
+public class Student {
+	
+	public int avg(int arr[]) {
+	return 0;
+	
+	     
+	}
+}
+

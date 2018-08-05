@@ -1,0 +1,14 @@
+package com.stackroute.demo1;
+
+public class StrBuff {
+
+    String reverse(String input){
+   	 
+		 return input;
+      
+    }
+    public static void main(String args[]) {
+     StrBuff b = new StrBuff();
+     System.out.println(b.reverse(null));
+    }
+}

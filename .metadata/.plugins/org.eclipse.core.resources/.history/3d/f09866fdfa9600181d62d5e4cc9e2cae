@@ -1,0 +1,20 @@
+package com.stackroute.pe2;
+
+public class Even {
+		public static boolean iEven(int num)
+		{
+		    if(num%2==0)  
+		    {
+		    	System.out.print(true);
+		        return true;
+		    }
+		}
+		 public static boolean iOdd(int num)
+		    {
+			 if(num%2!=0) {
+		    	System.out.print(false);
+		        return false;
+		    }
+		}
+}		   
+		

@@ -1,0 +1,48 @@
+package com.stackroute.demo;
+import java.util.*;
+
+public class NonInc {
+	 
+	      public static void main(String []args){
+	        
+	 		Scanner s = new Scanner(System.in);
+	 		
+		 		System.out.println("Enter something : ");
+	 		String st = s.next();
+	 		
+
+	        int arr[]=new int [st.length()];                   
+	        for(int i=0;i<st.length();i++)
+	        {
+	            arr[i]=Character.getNumericValue(st.charAt(i));
+	        }
+	       int length=arr.length;
+	     int rev[]=new int[length];
+	        Arrays.sort(arr);   //sort function in java
+	        
+	        int sum=0;
+	        for(int i=0;i<arr.length;i++)
+	        {
+	            rev[i]=arr[length-1-i];  // decreased order
+	            System.out.print("The Sorted no. is in non-decreasing order:" + arr);
+	           if(rev[i]%2==0)       // checking for even
+	           {
+	               sum=sum+arr[i];     //sum
+	              
+	           }
+	     
+	        }
+	        System.out.println("Sum of numbers is:" + sum);
+	         if(sum>15)                   
+	               {
+	                   System.out.print("TRUE"+ " " + sum);
+	               }
+	               else
+	               {
+	                   System.out.print("FALSE");
+	               }
+	        
+	     }
+	 }
+
+

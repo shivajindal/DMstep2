@@ -1,0 +1,21 @@
+package com.stackroute.demo1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StrBufTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	
+
+	 StrBuff test = new StrBuff();
+	
+	 int result = test.Reverse("London");
+	
+	 assertEquals("nodnoL", result);
+	 }
+	
+}

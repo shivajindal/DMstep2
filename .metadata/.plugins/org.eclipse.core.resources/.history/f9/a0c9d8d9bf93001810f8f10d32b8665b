@@ -1,0 +1,5 @@
+package javatypes;
+
+public class StaticNested {
+
+}

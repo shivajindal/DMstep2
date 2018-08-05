@@ -1,0 +1,19 @@
+package com.stackroute.demo1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StrBufTest {
+
+	@Test
+	public void testReverse() {
+		
+		 StrBuff test = new StrBuff();
+		
+		 String result = test.reverse("London");
+		 System.out.println("sajkcnk"+result);
+		
+		 assertEquals("nodnoL", result);
+		 }
+}

@@ -1,0 +1,12 @@
+package com.stackroute.pe2;
+
+class Member {
+}
+public class MemberVariable extends Member{
+}
+	public String getvalues() {
+	return null;
+}
+
+
+	

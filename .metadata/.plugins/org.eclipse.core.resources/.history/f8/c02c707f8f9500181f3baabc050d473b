@@ -1,0 +1,12 @@
+package com.stackroute.demo1;
+
+public class StrBuffTest {
+
+	public void testMultiply() {
+		
+		 Junit test = new Junit();
+		
+		 int result = test.multiply(5, 5);
+		
+		 assertEquals(25, result);
+		 }

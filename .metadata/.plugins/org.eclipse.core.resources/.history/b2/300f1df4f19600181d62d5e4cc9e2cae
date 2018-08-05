@@ -1,0 +1,32 @@
+package com.stackroute.pe2;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class StudentTest {
+private static Student student;
+ 
+	
+	@BeforeClass
+	public static void setup() {
+		student = new Student();
+	}
+	
+	@AfterClass
+	public static void teardown() {
+		student = null;
+	}
+
+	@Test
+	public void test() {
+		int a[] = {80,70,90,60};
+		int s = student.avg(a);
+		assertEquals(70,s);
+	}
+
+	
+
+	}

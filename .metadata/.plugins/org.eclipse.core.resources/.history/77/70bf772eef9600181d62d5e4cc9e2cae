@@ -1,0 +1,31 @@
+package com.stackroute.pe2;
+
+import static org.junit.Assert.*;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class EvenTest {
+private static Even even;
+private int num;
+	
+	@BeforeClass
+	public static void setup() {
+		even = new Even();
+	}
+	
+	@AfterClass
+	public static void teardown() {
+		even = null;
+	}
+
+	@Test
+	public void test() {
+	boolean val;
+	val = Even.isEven(2);
+	assertEquals(true,val);
+	val = Even.isEven(1);
+	assertEquals(false,val);
+}
+}

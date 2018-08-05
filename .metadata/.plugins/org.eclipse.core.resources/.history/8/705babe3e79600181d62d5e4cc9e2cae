@@ -1,0 +1,18 @@
+package com.stackroute.pe2;
+
+public class Even {
+		public static boolean isEven(int number)
+		{
+		    if(number%2==0)  //checking for even number
+		    {
+		        return true;
+		    }
+		    else
+		    {
+		        return false;
+		    }
+		}
+		     public static void main(String []args){
+		 System.out.println(" result="+isEven(5));
+		     }
+		}

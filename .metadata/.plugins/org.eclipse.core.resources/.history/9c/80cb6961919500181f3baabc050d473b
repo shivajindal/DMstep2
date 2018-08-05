@@ -1,0 +1,27 @@
+package com.stackroute.demo1;
+
+public class StrBuff {
+
+    String reverse(String input){
+   	 
+		 return input;
+      
+    }
+    
+//    public static void main(String args[]) {
+//     StrBuff b = new StrBuff();
+//     System.out.println(b.reverse(null));
+//    }
+    
+    public static void main(String []args){
+   	 
+		 String input="london";      
+        
+        int length = input.length(); // string length
+      for(int i=1;i<input.length()+1;i++) 
+      {
+          char a= input.charAt(length-i);//converting string into char backwards
+        System.out.print(a); 
+      }
+    }
+}

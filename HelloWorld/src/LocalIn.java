@@ -1,0 +1,24 @@
+
+
+public class LocalIn {
+	
+	int num=10;
+	void display()
+	{
+	class Number1
+	{
+	void msg()
+	{
+	System.out.println(num);
+	}
+	}
+	Number1 n=new Number1();
+	n.msg();
+	}
+	public static void main(String args[])
+	{
+	LocalIn obj=new LocalIn();
+	obj.display();
+	}
+	}
+

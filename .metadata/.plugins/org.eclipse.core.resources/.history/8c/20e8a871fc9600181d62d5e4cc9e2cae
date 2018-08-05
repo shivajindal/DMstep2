@@ -1,0 +1,9 @@
+package com.stackroute.pe2;
+
+public class Factorial {
+	
+	public long fact(long n){
+		return 0;
+	}
+
+}
